@@ -1,10 +1,13 @@
+/* This CSS rule selects all <h1> elements in the HTML document and sets their text color to red. So, any text within an <h1> element will be displayed in red. */
 h1{
     color: red;
 }
+/* This rule selects elements with the class "completed" and applies two style properties. First, it sets the text-decoration property to "line-through," which adds a line through the text, typically used to indicate that a task is completed. Second, it changes the text color to gray for elements with this class. */
 .completed{
     text-decoration: line-through;
     color: gray;
 }
+/* Similarly, this rule selects elements with the class "not" and applies the text-decoration property with the value "underline." This underlines the text within elements having this class, which is often used to indicate a link or something interactive. */
 .not{
     text-decoration: underline;
 }
